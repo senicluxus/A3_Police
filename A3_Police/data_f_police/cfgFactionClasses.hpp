@@ -14,6 +14,6 @@ class CfgFactionClasses
 		priority = 3;
 		side = TGuerrila;
 		icon = "\A3_Police\Data_F_Police\FactionIcons\icon_Police_CA.paa";
-		flag = "\A3\Data_F_Enoch\Flags\flag_Altis_CO.paa";
+		flag = "\A3\Data_F\Flags\flag_Altis_CO.paa";
 	};
 };

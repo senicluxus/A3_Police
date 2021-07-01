@@ -1,5 +1,3 @@
-// Arma 3
-class I_soldier_F;
 // Arma 3 Police
 class Police_I_Altis_Man_Base_F: Police_I_Livonia_Man_Base_F
 {
