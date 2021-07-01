@@ -9,7 +9,7 @@ class CfgVehicles
 	class SoldierGB;
     // Arma 3 Police
 	#include "cfgCivil.hpp"             // Civilians
-	#include "cfgPolice.hpp"			// Police
+	#include "cfgLivoniaPolice.hpp"		// Police
     #include "cfgUniforms.hpp"
 	// Deprecated classes
 	#include "deprecated.hpp"
