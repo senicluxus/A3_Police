@@ -9,7 +9,7 @@ class Police_I_P_Offroad_01_police_F: Offroad_01_civil_base_F
 	icon = "\A3\Soft_F_Exp\Offroad_01\Data\UI\Map_Offroad_01_gen_CA.paa";
 	picture = "\A3\Soft_F_Exp\Offroad_01\Data\UI\Offroad_01_gen_CA.paa";
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	textureList[] = {Police,1};
@@ -35,7 +35,7 @@ class Police_I_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
@@ -63,7 +63,7 @@ class Police_I_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
@@ -81,4 +81,23 @@ class Police_I_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
         HideBumper1,1,
         HideBumper2,0
     };
+};
+
+class Police_I_Altis_Offroad_01_police_F: Police_I_P_Offroad_01_police_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_IND_Altis_F;
+	typicalCargo[] = {Police_IND_Altis_F};
+};
+class Police_I_Altis_Offroad_01_covered_F: Police_I_P_Offroad_01_covered_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
+};
+class Police_I_Altis_Offroad_01_comms_F: Police_I_P_Offroad_01_comms_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
 };

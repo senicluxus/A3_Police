@@ -74,7 +74,7 @@ class Police_I_P_Quadbike_01_F: Quadbike_01_base_F
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	textureList[] = {White,1};
@@ -83,4 +83,10 @@ class Police_I_P_Quadbike_01_F: Quadbike_01_base_F
 		"\A3\Soft_F_Beta\Quadbike_01\Data\Quadbike_01_CIV_WHITE_CO.paa",
 		"\A3\Soft_F_Beta\Quadbike_01\Data\Quadbike_01_wheel_CIVWHITE_CO.paa"
 	};
+};
+class Police_I_Altis_Quadbike_01_F: Police_I_P_Quadbike_01_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
 };

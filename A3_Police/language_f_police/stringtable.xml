@@ -146,16 +146,16 @@
 		<Container name="Data_F">
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_P_CfgFactionClasses_IND_Livonia_F0">
-					<Original>Livonian Police</Original>
+					<Original>Police (Livonia)</Original>
 					<Chinese>Livonian 警察</Chinese>
-					<French>Livonian Police</French>
+					<French>Police (Livonia)</French>
 					<Spanish>Livonian Policía</Spanish>
 					<Italian>Livonian Polizia</Italian>
 					<Polish>Livonian Policja</Polish>
 					<Russian>Livonian Полиция</Russian>
 					<German>Livonian Polizei</German>
-					<Czech>Livonian Policejní</Czech>
-					<English>Livonian Police</English>
+					<Czech>Police (Livonia)</Czech>
+					<English>Police (Livonia)</English>
 					<Portuguese>Livonian Polícia</Portuguese>
 					<Korean>Livonian 경찰</Korean>
 					<Chinesesimp>Livonian 警察</Chinesesimp>
@@ -163,16 +163,16 @@
 					<Turkish>Livonian Polis</Turkish>
 				</Key>
 				<Key ID="STR_A3_P_CfgFactionClasses_IND_Altis_F0">
-					<Original>Altian Police</Original>
+					<Original>Police (Altis)</Original>
 					<Chinese>Altian 警察</Chinese>
-					<French>Altian Police</French>
+					<French>Police (Altis)</French>
 					<Spanish>Altian Policía</Spanish>
 					<Italian>Altian Polizia</Italian>
 					<Polish>Altian Policja</Polish>
 					<Russian>Altian Полиция</Russian>
 					<German>Altian Polizei</German>
-					<Czech>Altian Policejní</Czech>
-					<English>Altian Police</English>
+					<Czech>Police (Altis)</Czech>
+					<English>Police (Altis)</English>
 					<Portuguese>Altian Polícia</Portuguese>
 					<Korean>Altian 경찰</Korean>
 					<Chinesesimp>Altian 警察</Chinesesimp>

@@ -140,7 +140,7 @@ class Police_I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 	scope = protected;
     scopeCurator = private; // del this line
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_Helipilot_F;
 	textureList[] = {Police,1};
 	hiddenSelectionsTextures[] = {"\A3_Police\Air_F_Police\Heli_Light_01\Data\Heli_Light_01_ext_police_CO.paa"};
@@ -151,4 +151,9 @@ class Police_I_P_Heli_Light_01_police_F: Heli_Light_01_civil_base_F
 		AddTread_Short,0,
 		AddTread,1
 	};
+};
+class Police_I_Altis_Heli_Light_01_police_F: Police_I_P_Heli_Light_01_police_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_Helipilot_F;
 };

@@ -1,5 +1,5 @@
 // Arma 3 Police
-class Police_I_Altis_Man_Base_F: Police_I_Livonia_Man_Base_F
+class Police_I_Altis_Man_Base_F: Police_I_P_Man_Base_F
 {
 	faction = Police_IND_Altis_F;
 	genericNames = GreekMen;
@@ -69,13 +69,13 @@ class Police_I_Altis_PoliceOfficer_Rifle_F: Police_I_Altis_PoliceOfficer_Base_F
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		H_Beret_blk_POLICE,
+		H_Cap_police,
 		DefaultManPoliceLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		H_Beret_blk_POLICE,
+		H_Cap_police,
 		DefaultManPoliceLinkedItems
 	};
 	weapons[] =

@@ -5,7 +5,7 @@ class Police_I_P_Boat_Civil_01_police_F: Boat_Civil_01_base_F
 	scope = public;
 	displayName = $STR_A3_CfgVehicles_C_Boat_Civil_01_police0;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	class AnimationSources: AnimationSources
@@ -41,4 +41,11 @@ class Police_I_P_Boat_Civil_01_police_F: Boat_Civil_01_base_F
 	};
     // TFAR compatibility
     tf_hasLRradio = true;
+};
+
+class Police_I_Altis_Boat_Civil_01_police_F: Police_I_P_Boat_Civil_01_police_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
 };

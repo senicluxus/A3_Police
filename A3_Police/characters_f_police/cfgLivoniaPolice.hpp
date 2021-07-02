@@ -1,7 +1,7 @@
 // Arma 3
 class I_soldier_F;
 // Arma 3 Police
-class Police_I_Livonia_Man_Base_F: I_soldier_F
+class Police_I_P_Man_Base_F: I_soldier_F
 {
 	scope = private;
     scopeCurator = private;
@@ -34,11 +34,11 @@ class Police_I_Livonia_Man_Base_F: I_soldier_F
 		};
 	};
 };
-class Police_I_Livonia_PoliceOfficer_Base_F: Police_I_Livonia_Man_Base_F
+class Police_I_P_PoliceOfficer_Base_F: Police_I_P_Man_Base_F
 {
     uniformClass = U_Marshal;
 };
-class Police_I_Livonia_PoliceOfficer_F: Police_I_Livonia_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_F.jpg";
@@ -85,7 +85,7 @@ class Police_I_Livonia_PoliceOfficer_F: Police_I_Livonia_PoliceOfficer_Base_F
 	};
 	role = Rifleman;
 };
-class Police_I_Livonia_PoliceOfficer_Rifle_F: Police_I_Livonia_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_Rifle_F.jpg";
@@ -133,7 +133,7 @@ class Police_I_Livonia_PoliceOfficer_Rifle_F: Police_I_Livonia_PoliceOfficer_Bas
 	cost = 100000;
 	role = Rifleman;
 };
-class Police_I_Livonia_PoliceOfficer_SG_F: Police_I_Livonia_PoliceOfficer_Base_F
+class Police_I_P_PoliceOfficer_SG_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_PoliceOfficer_SG_F.jpg";
@@ -184,14 +184,14 @@ class Police_I_Livonia_PoliceOfficer_SG_F: Police_I_Livonia_PoliceOfficer_Base_F
 	role = Rifleman;
     threat[] = {1,0.3,0.1};
 };
-class Police_I_Livonia_TacPoliceOfficer_Base_F: Police_I_Livonia_PoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_Base_F: Police_I_P_PoliceOfficer_Base_F
 {
     uniformClass = Police_U_I_P_PoliceUniform_gloves_F;
 	vehicleClass = MenRecon;
 	editorSubcategory = EdSubcat_Personnel_SpecialForces;
     icon = iconManRecon;
 };
-class Police_I_Livonia_TacPoliceOfficer_F: Police_I_Livonia_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_F.jpg";
@@ -238,7 +238,7 @@ class Police_I_Livonia_TacPoliceOfficer_F: Police_I_Livonia_TacPoliceOfficer_Bas
 	};
 	role = Rifleman;
 };
-class Police_I_Livonia_TacPoliceOfficer_Sniper_F: Police_I_Livonia_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_Sniper_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_Sniper_F.jpg";
@@ -288,7 +288,7 @@ class Police_I_Livonia_TacPoliceOfficer_Sniper_F: Police_I_Livonia_TacPoliceOffi
 	};
 	role = Rifleman;
 };
-class Police_I_Livonia_TacPoliceOfficer_SG_F: Police_I_Livonia_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_SG_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_SG_F.jpg";
@@ -337,7 +337,7 @@ class Police_I_Livonia_TacPoliceOfficer_SG_F: Police_I_Livonia_TacPoliceOfficer_
 	};
 	role = Rifleman;
 };
-class Police_I_Livonia_TacPoliceOfficer_UGV_02_F: Police_I_Livonia_TacPoliceOfficer_Base_F
+class Police_I_P_TacPoliceOfficer_UGV_02_F: Police_I_P_TacPoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_TacPoliceOfficer_UGV_02_F.jpg";
@@ -388,7 +388,7 @@ class Police_I_Livonia_TacPoliceOfficer_UGV_02_F: Police_I_Livonia_TacPoliceOffi
 	};
 	role = Rifleman;
 };
-class Police_I_Livonia_Helipilot_F: Police_I_Livonia_PoliceOfficer_Base_F
+class Police_I_P_Helipilot_F: Police_I_P_PoliceOfficer_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Helipilot_F.jpg";

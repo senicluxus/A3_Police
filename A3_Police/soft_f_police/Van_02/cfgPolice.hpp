@@ -5,7 +5,7 @@ class Police_I_P_Van_02_transport_F: Van_02_transport_base_F
 	scope = protected;
 	scopeCurator = private;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
@@ -34,7 +34,7 @@ class Police_I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
 	scope = protected;
 	scopeCurator = private;
 	side = TGuerrila;
-	faction = Police_IND_P_F;
+	faction = Police_IND_Livonia_F;
 	crew = Police_I_P_PoliceOfficer_F;
 	typicalCargo[] = {Police_I_P_PoliceOfficer_F};
 	weapons[] = {PoliceHorn};
@@ -55,4 +55,17 @@ class Police_I_P_Van_02_vehicle_F: Van_02_vehicle_base_F
 		front_protective_frame_hide,0
 	};
 	textureList[] = {Police,1};
+};
+
+class Police_I_Altis_Van_02_transport_F: Police_I_P_Van_02_transport_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
+};
+class Police_I_Altis_Van_02_vehicle_F: Police_I_P_Van_02_vehicle_F
+{
+	faction = Police_IND_Altis_F;
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
 };
