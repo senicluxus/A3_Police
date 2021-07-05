@@ -15,7 +15,7 @@ class CfgGroups
 		side = TGuerrila;
 		class Police_Livonia_F
 		{
-			name = $STR_A3_P_CfgFactionClasses_IND_P_F0;
+			name = $STR_A3_P_CfgFactionClasses_IND_Livonia_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
@@ -60,7 +60,7 @@ class CfgGroups
         };
 		class Police_Altis_F
 		{
-			name = $STR_A3_P_CfgFactionClasses_IND_P_F0;
+			name = $STR_A3_P_CfgFactionClasses_IND_Altis_F0;
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
