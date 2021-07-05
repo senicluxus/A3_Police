@@ -5,6 +5,7 @@ class CfgWeapons
 {
 	// Arma 3 Enoch
 	class V_CarrierRigKBT_01_light_base_F;
+	class V_CarrierRigKBT_01_base_F;
 	// Arma 3 Police
 	class V_CarrierRigKBT_01_light_POLICE_F: V_CarrierRigKBT_01_light_base_F
 	{
@@ -12,6 +13,15 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0;
 		picture = "\A3_Police\Characters_F_Police\Vests\Data\UI\icon_V_CarrierRigKBT_01_light_POLICE_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police.rvmat"};
+	};
+	class V_CarrierRigKBT_01_base_POLICE_F: V_CarrierRigKBT_01_base_F
+	{
+		author = $STR_A3_A_Heliotrope;
+		scope = public;
+		displayName = "Police Tactical Vest";
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_CarrierRigKBT_01_Black_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police.rvmat"};
 	};

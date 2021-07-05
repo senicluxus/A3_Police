@@ -36,7 +36,7 @@ class Police_I_P_Man_Base_F: I_soldier_F
 };
 class Police_I_P_PoliceOfficer_Base_F: Police_I_P_Man_Base_F
 {
-    uniformClass = U_Marshal;
+    uniformClass = Police_U_I_P_PoliceUniform_F;
 };
 class Police_I_P_PoliceOfficer_F: Police_I_P_PoliceOfficer_Base_F
 {
@@ -95,14 +95,14 @@ class Police_I_P_PoliceOfficer_Rifle_F: Police_I_P_PoliceOfficer_Base_F
 	linkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		H_Beret_blk_POLICE,
+		H_Cap_police,
         G_WirelessEarpiece_F,
 		DefaultManPoliceLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_blk_POLICE,
-		H_Beret_blk_POLICE,
+		H_Cap_police,
         G_WirelessEarpiece_F,
 		DefaultManPoliceLinkedItems
 	};

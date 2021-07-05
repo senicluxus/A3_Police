@@ -86,8 +86,8 @@ class Police_I_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 class Police_I_Altis_Offroad_01_police_F: Police_I_P_Offroad_01_police_F
 {
 	faction = Police_IND_Altis_F;
-	crew = Police_IND_Altis_F;
-	typicalCargo[] = {Police_IND_Altis_F};
+	crew = Police_I_Altis_PoliceOfficer_F;
+	typicalCargo[] = {Police_I_Altis_PoliceOfficer_F};
 };
 class Police_I_Altis_Offroad_01_covered_F: Police_I_P_Offroad_01_covered_F
 {

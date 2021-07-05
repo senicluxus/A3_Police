@@ -20,5 +20,6 @@ class CfgVehicles
 	class Vest_Base_F;
 	// Arma 3 Police
 	VEST_HOLDER(V_CarrierRigKBT_01_light_POLICE_F,$STR_A3_P_CfgWeapons_V_CarrierRigKBT_01_light_POLICE_F0)
+	VEST_HOLDER(V_CarrierRigKBT_01_base_POLICE_F,"Police Tactical Vest")
 
 };
