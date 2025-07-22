@@ -36,6 +36,40 @@
 				<Japanese>警官（ライフル）</Japanese>
 				<Turkish>Polis (Tüfek)</Turkish>
 			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_Galat_F0">
+				<Original>Police Officer (Galat)</Original>
+				<Chinese>警察（Galat）</Chinese>
+				<French>Policier (Galat)</French>
+				<Spanish>Policía (Galat)</Spanish>
+				<Italian>Poliziotto (Galat)</Italian>
+				<Polish>Policjant (Galat)</Polish>
+				<Italian>Полицейский (Galat)</Russian>
+				<German>Polizist (Galat)</German>
+				<Czech>Policista (Galat)</Czech>
+				<English>Police Officer (Galat)</English>
+				<Portuguese>Policial (Galat)</Portuguese>
+				<Korean>경찰관(Galat)</Korean>
+				<Chinesesimp>警察（Galat）</Chinesesimp>
+				<Japanese>警官（Galat）</Japanese>
+				<Turkish>Polis (Galat)</Turkish>
+			</Key>
+			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_AKM_F0">
+				<Original>Police Officer (AKM)</Original>
+				<Chinese>警察（AKM）</Chinese>
+				<French>Policier (AKM)</French>
+				<Spanish>Policía (AKM)</Spanish>
+				<Italian>Poliziotto (AKM)</Italian>
+				<Polish>Policjant (AKM)</Polish>
+				<Italian>Полицейский (AKM)</Russian>
+				<German>Polizist (AKM)</German>
+				<Czech>Policista (AKM)</Czech>
+				<English>Police Officer (AKM)</English>
+				<Portuguese>Policial (AKM)</Portuguese>
+				<Korean>경찰관(AKM)</Korean>
+				<Chinesesimp>警察（AKM）</Chinesesimp>
+				<Japanese>警官（AKM）</Japanese>
+				<Turkish>Polis (AKM)</Turkish>
+			</Key>
 			<Key ID="STR_A3_P_CfgVehicles_I_P_PoliceOfficer_SG_F0">
 				<Original>Police Officer (Shotgun)</Original>
 				<Chinese>警察（獵槍）</Chinese>
@@ -161,6 +195,23 @@
 					<Chinesesimp>Livonian 警察</Chinesesimp>
 					<Japanese>Livonian 警察</Japanese>
 					<Turkish>Livonian Polis</Turkish>
+				</Key>
+				<Key ID="STR_A3_P_CfgFactionClasses_IND_Argana_F0">
+					<Original>Police (Argana)</Original>
+					<Chinese>Arganan 警察</Chinese>
+					<French>Police (Argana)</French>
+					<Spanish>Arganan Policía</Spanish>
+					<Italian>Arganan Polizia</Italian>
+					<Polish>Arganan Policja</Polish>
+					<Russian>Arganan Полиция</Russian>
+					<German>Arganan Polizei</German>
+					<Czech>Police (Argana)</Czech>
+					<English>Police (Argana)</English>
+					<Portuguese>Arganan Polícia</Portuguese>
+					<Korean>Arganan 경찰</Korean>
+					<Chinesesimp>Arganan 警察</Chinesesimp>
+					<Japanese>Arganan 警察</Japanese>
+					<Turkish>Arganan Polis</Turkish>
 				</Key>
 				<Key ID="STR_A3_P_CfgFactionClasses_IND_Altis_F0">
 					<Original>Police (Altis)</Original>

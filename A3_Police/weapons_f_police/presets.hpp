@@ -16,3 +16,17 @@ class srifle_DMR_06_black_AMS_BI_F: srifle_DMR_06_black_F
 		};
 	};
 };
+
+class Aegis_srifle_SVD_blk_f;
+class Aegis_srifle_SVD_blk_dms_f: Aegis_srifle_SVD_blk_f
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS_weathered_F;
+		};
+	};
+};

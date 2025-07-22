@@ -11,6 +11,7 @@ class CfgVehicles
 	#include "cfgCivil.hpp"             // Civilians
 	#include "cfgLivoniaPolice.hpp"		// Police
 	#include "cfgAltisPolice.hpp"
+	#include "cfgArganaPolice.hpp"
     #include "cfgUniforms.hpp"
 	// Deprecated classes
 	#include "deprecated.hpp"

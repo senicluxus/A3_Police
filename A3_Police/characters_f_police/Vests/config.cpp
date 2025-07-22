@@ -6,6 +6,7 @@ class CfgWeapons
 	// Arma 3 Enoch
 	class V_CarrierRigKBT_01_light_base_F;
 	class V_CarrierRigKBT_01_base_F;
+	class V_TacVest_grn;
 	// Arma 3 Police
 	class V_CarrierRigKBT_01_light_POLICE_F: V_CarrierRigKBT_01_light_base_F
 	{
@@ -25,4 +26,12 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Police\Characters_F_Police\Vests\Data\CarrierRigKBT_01_Police.rvmat"};
 	};
+	class Tacvest_Argana_F: V_TacVest_grn
+	{
+		author = $STR_A3_A_BranFlakes;
+		displayName = "Police Vest [Argana]";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Police\Characters_F_Police\Vests\Data\TacVest_Gendarme_CO.paa"};
+	};
+	
 };

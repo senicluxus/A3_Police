@@ -16,4 +16,12 @@ class CfgFactionClasses
 		icon = "\A3_Police\Data_F_Police\FactionIcons\icon_Police_CA.paa";
 		flag = "\A3\Data_F\Flags\flag_Altis_CO.paa";
 	};
+	class Police_IND_Argana_F
+	{
+		displayName = $STR_A3_P_CfgFactionClasses_IND_Argana_F0;
+		priority = 3;
+		side = TGuerrila;
+		icon = "\A3_Police\Data_F_Police\FactionIcons\icon_Police_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_Altis_CO.paa";
+	};
 };
